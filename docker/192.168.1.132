@@ -5,4 +5,6 @@ services:
     network_mode: host
   httpd2:
     image: "httpd:${TAG}"
+  httpd3:
+    image: "httpd:${TAG}"
 
