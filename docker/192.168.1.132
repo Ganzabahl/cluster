@@ -3,7 +3,3 @@ services:
   httpd:
     image: "httpd:${TAG}"
     network_mode: host
-  httpd2:
-    image: "httpd:${TAG}"
-  httpd3:
-    image: "httpd:${TAG}"
