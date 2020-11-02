@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  jumpstarter:
+    image: trumandk/jumpstarter
+    network_mode: host
+    volumes:
+      - ~/.ssh/:/.ssh/
+    environment:
+      - GIT_CLUSTER="git@github.com:trumandk/cluster.git"
