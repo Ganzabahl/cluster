@@ -4,6 +4,6 @@ services:
     image: trumandk/jumpstarter
     network_mode: host
     volumes:
-      - ~/.ssh/:/.ssh/
+      - ~/.ssh/:/root/.ssh/
     environment:
       - GIT_CLUSTER="git@github.com:trumandk/cluster.git"
