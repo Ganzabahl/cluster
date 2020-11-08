@@ -7,3 +7,5 @@ services:
       - ~/.ssh/:/root/.ssh/
     environment:
       - GIT_CLUSTER="git@github.com:trumandk/cluster.git"
+      - JUMPSTARTER_USERNAME=admin
+      - JUMPSTARTER_PASSWORD=123
