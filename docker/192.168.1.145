@@ -1,16 +1,7 @@
 version: '3.3'
 services:
-  boinc:
-    image: ghcr.io/linuxserver/boinc
+  stress:
+    image: progrium/stress
     container_name: boinc
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/London
-      - GUAC_USER=abc #optional
-      - GUAC_PASS=900150983cd24fb0d6963f7d28e17f72 #optional
-    volumes:
-      - /path/to/data:/config
-    ports:
-      - 8080:8080
+    command:  --cpu 8 --io 1 --vm 2 --vm-bytes 128M --timeout 100h
     restart: unless-stopped
