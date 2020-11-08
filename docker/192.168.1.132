@@ -1,7 +1,6 @@
 version: '3.3'
 jumpstarter:
-  client:
-    mac: test
+  mac: test
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
