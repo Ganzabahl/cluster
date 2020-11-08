@@ -1,7 +1,1 @@
 version: '3.3'
-services:
-  stress:
-    image: progrium/stress
-    container_name: boinc
-    command:  --cpu 8 --io 1 --vm 2 --vm-bytes 128M --timeout 100h
-    restart: unless-stopped
