@@ -25,6 +25,7 @@ services:
     depends_on:
       - elasticsearch
     restart: always
+    network_mode: host
     environment:
       SERVER_NAME: kibana.example.org
       ELASTICSEARCH_HOSTS: http://localhost:9200
