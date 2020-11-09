@@ -32,7 +32,7 @@ services:
     container_name: code-server
     environment:
       - PUID=500
-      - PGID=500
+      - PGID=233
       - TZ=Europe/London
       - PASSWORD=password #optional
       - SUDO_PASSWORD=password #optional
