@@ -31,8 +31,8 @@ services:
     image: trumandk/docker-code-server:latest
     container_name: code-server
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=500
+      - PGID=500
       - TZ=Europe/London
       - PASSWORD=password #optional
       - SUDO_PASSWORD=password #optional
