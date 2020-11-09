@@ -28,7 +28,7 @@ services:
       SERVER_NAME: kibana.example.org
       ELASTICSEARCH_HOSTS: http://elasticsearch:9200
   code-server:
-    image: ghcr.io/linuxserver/code-server
+    image: trumandk/docker-code-server:latest
     container_name: code-server
     environment:
       - PUID=1000
