@@ -15,3 +15,6 @@ services:
     ports:
       - 8443:8443
     restart: unless-stopped
+  code-server:
+    image:  httpd:latest
+    restart: unless-stopped
