@@ -19,5 +19,5 @@ services:
     image:  httpd:latest
     deploy:
       mode: replicated
-      replicas: 5
+      replicas: 20
     restart: always
