@@ -26,6 +26,6 @@ services:
       - elasticsearch
     restart: always
     environment:
-      - SERVER_NAME: kibana.example.org
-      - ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      - SERVER_NAME=kibana.example.org
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
 
