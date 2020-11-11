@@ -9,8 +9,6 @@ services:
       - cluster.initial_master_nodes=elasticsearch
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms3g -Xmx3g"
-      - ELASTICSEARCH_USERNAME=elastic
-      - ELASTICSEARCH_PASSWORD=MagicWord
       - xpack.security.enabled=true
     restart: always
     ulimits:
@@ -30,8 +28,6 @@ services:
     environment:
       - SERVER_NAME: kibana.example.org
       - ELASTICSEARCH_HOSTS: http://elasticsearch:9200
-      - ELASTICSEARCH_USERNAME=elastic
-      - ELASTICSEARCH_PASSWORD=MagicWord
   code-server:
     image: trumandk/docker-code-server:latest
     container_name: code-server
