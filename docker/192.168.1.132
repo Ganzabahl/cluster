@@ -28,10 +28,10 @@ services:
       - elasticsearch
     restart: always
     environment:
-      SERVER_NAME: kibana.example.org
-      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
-      ELASTICSEARCH_USERNAME=elastic
-      ELASTICSEARCH_PASSWORD=MagicWord
+      - SERVER_NAME: kibana.example.org
+      - ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=MagicWord
   code-server:
     image: trumandk/docker-code-server:latest
     container_name: code-server
