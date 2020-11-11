@@ -9,6 +9,9 @@ services:
       - cluster.initial_master_nodes=elasticsearch
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms3g -Xmx3g"
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=MagicWord
+      - xpack.security.enabled=true
     restart: always
     ulimits:
       memlock:
