@@ -10,6 +10,8 @@ services:
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms3g -Xmx3g"
       - xpack.security.enabled=true
+      - ELASTICSEARCH_USERNAME=username
+      - ELASTICSEARCH_PASSWORD=password
     restart: always
     ulimits:
       memlock:
@@ -28,4 +30,6 @@ services:
     environment:
       - SERVER_NAME=kibana.example.org
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=username
+      - ELASTICSEARCH_PASSWORD=password
 
