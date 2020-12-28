@@ -28,4 +28,3 @@ services:
     environment:
       - SERVER_NAME=kibana.example.org
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
-
