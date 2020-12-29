@@ -1,3 +1,9 @@
 Updated
 Updated
 Updated hash:98982bdafb2c8937725e3d2eb2015c767e46b7ed
+Updated hash:5aeef1c30c73a8f67e5ba849214000415519662e ######################
+NAME                           READY   STATUS        RESTARTS   AGE
+hello-world-6df5659cb7-7ltkz   1/1     Running       0          4m5s
+hello-world-6df5659cb7-8q8fg   1/1     Terminating   0          4m5s
+hello-world-6df5659cb7-l7rdb   1/1     Running       0          121m
+hello-world-6df5659cb7-z7546   1/1     Running       0          33m
