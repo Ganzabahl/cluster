@@ -7,3 +7,8 @@ hello-world-6df5659cb7-7ltkz   1/1     Running       0          4m5s
 hello-world-6df5659cb7-8q8fg   1/1     Terminating   0          4m5s
 hello-world-6df5659cb7-l7rdb   1/1     Running       0          121m
 hello-world-6df5659cb7-z7546   1/1     Running       0          33m
+Updated hash:f6e2af6deb7ce4e943821bb83cb15fd15ccb9321 ######################
+NAME                           READY   STATUS        RESTARTS   AGE
+hello-world-6df5659cb7-7ltkz   1/1     Terminating   0          5m58s
+hello-world-6df5659cb7-l7rdb   1/1     Running       0          123m
+hello-world-6df5659cb7-z7546   1/1     Running       0          34m
