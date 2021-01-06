@@ -6,6 +6,6 @@ services:
     volumes:
       - ~/.ssh/:/root/.ssh/
     environment:
-      - GIT_CLUSTER="git@github.com:trumandk/cluster.git"
+      - GIT_CLUSTER="git@github.com:Ganzabahl/cluster.git"
       - JUMPSTARTER_USERNAME=admin
       - JUMPSTARTER_PASSWORD=123
