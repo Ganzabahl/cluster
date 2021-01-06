@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   nifi1:
-    image: apache/nifi:1.11.4
+    image: apache/nifi:1.12.1
     ports:
       - 8081:8081 # Unsecured HTTP Web Port
         #      - 8000:8000 # Unsecured HTTP Web Port

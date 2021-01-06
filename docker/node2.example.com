@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   code-server:
-    image:  trumandk/docker-code-server
+    image:  Ganzabahl/docker-code-server
     container_name: code-server
     environment:
       - PUID=500
