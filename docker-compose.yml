@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   jumpstarter:
-    image: trumandk/jumpstarter
+    image: ganzabahl/jumpstarter
     network_mode: host
     volumes:
       - ~/.ssh/:/root/.ssh/
